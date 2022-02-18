@@ -1,0 +1,138 @@
+@import 'bootstrap-reboot.min'
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap')
+
+
+
+*
+    font-family: 'Poppins', 'sans-serif'
+    margin: 0
+    padding: 0
+
+
+.container
+    width: 1111px
+    margin: 0 auto
+    border: 2px solid black
+    border-radius: 3%
+
+.converter__tabs-item_acrive
+    background-color: green
+
+
+
+.converter
+    padding-top: 102px
+    min-height: 100vh
+    background: url('../img/bg.jpg') center center/cover no-repeat
+    &__course
+        display: block
+        margin-top: 20px
+        text-align: center
+        font-size: 30px
+        font-weight: 700
+        color: #fff
+    &__title
+        font-size: 30px
+        text-align: center
+    &__tabs
+        
+        
+        
+        margin: 0 auto
+        margin-top: 50px
+        width: 400px
+        display: flex
+        justify-content: space-between
+        &-item
+            border: 2px solid gray
+            text-align: center
+            width: 150px
+            height: 60px
+            padding: 15px
+            
+            &:hover
+                border: 3px solid red
+            
+    &__input_1
+        
+        display: block
+        margin: 0 auto
+        margin-top: 50px
+        input
+            width: 200px
+            margin-top: 20px
+            height: 30px
+            border-radius: 5px
+            background-color: #fff  
+            margin-bottom: 15px
+            border: none
+            padding: 0 20px
+            font-size: 14px
+            font-weight: 300px
+            color: #4B4B4B
+    &__result_1
+        
+        margin-top: 20px
+        width: 200px
+        height: 40px
+        background: #fff
+        border-radius: 5px
+        background-color: #fff  
+        margin-bottom: 15px
+        border: none
+        padding: 0 20px
+        font-size: 14px
+        font-weight: 300px
+        color: #4B4B4B
+    &__wrapper
+        display: none
+
+    
+
+
+    &__input_2
+        display: block
+        margin: 0 auto
+        margin-top: 50px
+        input
+            width: 200px
+            margin-top: 20px
+            height: 30px
+            border-radius: 5px
+            background-color: #fff  
+            margin-bottom: 15px
+            border: none
+            padding: 0 20px
+            font-size: 14px
+            font-weight: 300px
+            color: #4B4B4B
+    &__result_2
+    
+        border-radius: 5px
+        background-color: #fff  
+        margin-bottom: 15px
+        border: none
+        padding: 0 20px
+        font-size: 14px
+        font-weight: 300px
+        color: #4B4B4B
+        
+        margin-top: 20px
+        width: 200px
+        height: 40px
+        background: #fff
+    &__wrapper1
+        display: none
+        
+.converter__wrapper_active
+    display: block
+    margin: 0 auto
+    width: 400px
+
+.converter__wrapper1_active
+    display: block
+    margin: 0 auto
+    width: 400px
+
+
+@import 'media'
